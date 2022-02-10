@@ -15,7 +15,7 @@ class script(object):
 - Source - https://github.com/hopepsycho/kunjappan2.0  
 
 <b>DEVS:</b>
-- <a href=https://t.me/ashliinn>MR ΣDITΩR Devs</a>"""
+- <a href=https://t.me/ashliinn>★ 𝙼𝚛 𝙴𝚍𝚒𝚝𝚘𝚛 ★ Devs</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
