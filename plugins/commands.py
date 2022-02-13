@@ -235,6 +235,6 @@ async def delete_all_index_confirm(bot, message):
 @Client.on_message(filters.text)
 async def my_handle(app, message):
         await message.reply_text(
-                text=f"ʜʟᴏ👋 {message.from_user.firstname} ⚙️Fɪʟᴛᴇʀ ꜰᴏʀ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ᴏɴɴ✅️"
+                text="⚙️Fɪʟᴛᴇʀ ꜰᴏʀ ᴛʜɪꜱ ᴍᴏᴠɪᴇ    ɪꜱ ᴏɴɴ✅️"
        )
 
