@@ -232,7 +232,7 @@ async def delete_all_index_confirm(bot, message):
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
-@Client.on_message(filters.text)
+@Client.on_message(filters.text & filters.group)
 async def my_handle(app, message):
         await message.reply_text(
                 text="⚙️Fɪʟᴛᴇʀ ꜰᴏʀ ᴛʜɪꜱ ᴍᴏᴠɪᴇ..........ɪꜱ ᴏɴɴ✅️"
