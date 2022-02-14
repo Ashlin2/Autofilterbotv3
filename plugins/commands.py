@@ -235,7 +235,7 @@ async def delete_all_index_confirm(bot, message):
 @Client.on_message(filters.text & filters.group)
 async def my_handle(app, message):
         buttons = [[
-            InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ➕️', url=f'http://t.me/pyogram_bot?startgroup=true')
+            InlineKeyboardButton('Mᴏᴠɪᴇ Iꜱ Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ', url='http://t.me/mvzzgdwn')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
