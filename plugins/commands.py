@@ -240,8 +240,5 @@ async def my_handle(app, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text="⚙️Fɪʟᴛᴇʀ ꜰᴏʀ ᴛʜɪꜱ ᴍᴏᴠɪᴇ..........ɪꜱ ᴏɴɴ✅️"       
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html'
  )
 
